@@ -1,0 +1,198 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+
+    height: 100%;
+    width: 100%;
+    background-color:#C1C1C1;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: row;
+     margin: auto;
+     margin-top: 40px;
+     width: 900px;
+     height: 1100px;
+     background-color:#01496F;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+     
+}
+ .left{
+    
+    width: 35%;
+    height: 100%;
+    padding-top: 30px;
+    color: white;
+ }
+
+
+ .skills >.category, 
+ .languages >.category, 
+ .personality >.category {
+
+   padding-left: 20px;
+   margin-bottom: 10px;
+   margin-top: 20px;
+   text-align: left;
+   background-color: #04355A;
+   height: 45px;
+   font-size: 23px;
+   line-height: 45px;
+
+ }
+ .cv-img{
+
+    border-radius: 100px;
+     width: 200px;
+     height: 200px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+ }
+
+ .name{
+
+    height: 60px;
+    font-size: 35px;
+    line-height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #04355A;
+ }
+
+ .information{
+
+   margin-top: 10px;
+   margin-bottom: 20px;
+ }
+
+ .sub-cat{
+    
+   text-align: left;
+   padding-left: 20px;
+ }
+
+ .right{
+
+    width: 65%;
+    height: 95%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: left;
+ }
+
+ .bold{
+     
+    font-weight: bold;
+    -webkit-filter: blur(0.6px);
+    -moz-filter: blur(0.6px);
+    -o-filter: blur(0.6px);
+    -ms-filter: blur(0.6px);
+    filter: blur(0.6px);
+ }
+
+ .category{
+     
+    
+    width: 100%;
+    font-weight: bold;
+    -webkit-filter: blur(0.6px);
+    -moz-filter: blur(0.6px);
+    -o-filter: blur(0.6px);
+    -ms-filter: blur(0.6px);
+    filter: blur(0.6px);
+ }
+
+ .category-right{
+
+   font-size: 23px;
+   margin-bottom: 20px;
+
+ }
+
+ .sub-cat-right{
+
+    margin-bottom: 20px;
+ }
+
+ .correct-icon{
+
+    width: 13px;
+    height: 13px;
+ }
+
+ .hobby-icon{
+
+     width: 50px;
+     height: 50px;
+ }
+
+ .contact-icon{
+
+   height: 30px;
+ }
+
+ .contacts{
+
+   display: flex;
+   justify-content: space-between;
+   width: 30%;
+ }
+
+ .hobbies{
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 50%;
+   margin-bottom: 20px;
+ }
+
+ .hobby{
+
+   display: flex;
+   flex-direction: column;
+ }
+
+ .circle{
+
+    width: 20px;
+    height: 20px;
+    background-color: #D4F1F9;
+    border-radius: 50px;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+ }
+
+ .empty{
+     background-color:#3D7999 ;
+ }
+
+ .skill-rate{
+
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    left: 20px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+ }
+ 
+ .invert {
+	filter: invert(100%);
+}
