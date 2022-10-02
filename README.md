@@ -1,2 +1,2 @@
 # CV-Template
-This is my CV
+This a CV template
